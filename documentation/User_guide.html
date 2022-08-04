@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Forg</title>
+        <link rel="stylesheet" href="user_guide.css">
+    </head>
+
+    <body >
+        <section>
+            <h1>Forg</h1>
+            <div>
+                <h2>1. Introduction</h2>
+                <p>
+                    &emsp;Forg is a web platform which helps manage creating and managing shoping lists for food items.
+                </p>
+            </div>
+        </section>
+
+        <section>
+            <h2>2. Pages</h2>
+            <div>
+                &emsp; There are multiple pages regarding managing your food products, shopping lists and more.
+                
+                <h3>2.1. Home page</h3>
+                <div>
+                    <p>
+                        &emsp;This is where it all starts. From here the user can navigate within the navigation bar (at the top of the screen):
+                    </p>
+                    <img src="./doc_img/Capture_nav.PNG" alt="Navigation Bar screen capture">
+                    <p>
+                        Next: a nice logo, a brief introduction to our site and two action buttons:
+                    </p>
+                    <img src="./doc_img/Capture_home.PNG" alt="Home screen capture">
+                    
+                </div>
+
+                <h3>2.2. Create account page</h3>
+                <div>
+                    <p>
+                        Also known as the register page, this page is where the user can create an account. It requires the first 
+                        name, last name
+                    email, password and retyping the password again. After finishing, the user can press "Enter" on the 
+                    keyboard or click the "Search" button.
+                    </p>
+                    <img src="./doc_img/Capture_register.PNG" alt="Home screen capture">
+                    <p>
+                        If the user already has an account on this site, they can click on "Login here!", as the text already suggests that.
+                    </p>
+                    
+                </div>
+                <h3>2.3. Login page</h3>
+                <div>
+                    This page requires the email and the password. If the user doesn't have an account on this site, they can click on
+                     "Register here!", as the text already suggests that.
+                </div>
+                <img class="img_login" src="./doc_img/Capture_login.PNG" alt="Home screen capture">
+                <h3>2.4. Search page</h3>
+                <p>
+                    &emsp;On this page, the user is expected to type in a name of a food product (e.g. "apple"):
+                    
+                </p>
+                <img src="./doc_img/Capture_search.PNG" alt="Search bar screen capture">
+                <p>
+                    The user can also filter the results using the options below the search bar:
+                </p>
+                <img src="./doc_img/Capture_filters.PNG" alt="Filters screen capture">
+                <p>
+                    After typing in (or choosing some filters), the user can press "Enter" on the keyboard, or click the "Search" button.
+                </p>
+
+                <h3>2.5. Search results</h3>
+                <div>
+                    <p>
+                        &emsp;The results from the search action are displayed as a table. Each column is giving more information about the
+                        product. 
+                    </p>
+                    <img src="./doc_img/Capture_result.PNG" alt="Search result screen capture">
+                    <p>
+                        That was an example of what appears when we type in "apple".
+                    </p>
+                    <p>
+                        If you want to add one item from this table, click on "Add to your list", right at the end of the row.
+                    </p>
+                    
+                </div>
+
+                <h3>2.6. Add to your shopping list</h3>
+                <div>
+                    <p>
+                        &emsp;Here the user can select a quantity. By default this quantity is 1 and can be changed by using the arrows, or typing in a number.
+                    </p>
+                    <img src="./doc_img/Capture_add.PNG" alt="Add item screen capture">
+                    <p>
+                        The user will be notified onde the item is added. The statmement "Item Added!" will appear.
+                    </p>
+                    <p>
+                        If no user is currently logged in, they will be redirected to the Login page.
+                    </p>
+
+                </div>
+                <h3>2.7. Shopping List page</h3>
+                <div>
+                    <p>
+                        Here, the user can see their shopping list inside a table. If the user brought the item and wants to remove it 
+                        from the list, they can click on the "Remove" button.
+                    </p>
+                    <img src="./doc_img/Capture_list.PNG" alt="Shopping List screen capture">
+                    <p>
+                        If the shopping list is empty, the page will suggest them to search for some items to add on the list.
+                    </p>
+                    <img src="./doc_img/Capture_list_empty.PNG" alt="Empty shopping list screen capture">
+                    
+                </div>
+
+                <h3>2.8. Statistics page</h3>
+                <div>
+                    <p>
+                        On this page, the user will see what items are added the most. There will be dislayed the 7 most popular
+                        items for the current user.
+                    </p>
+                    <img src="./doc_img/Capture_stats.PNG" alt="Statistics screen capture">
+                    <p>The user can also export this data as a .CSV file by clicking on the "Export" button.</p>
+                </div>
+
+                <h3>2.8. Admin page</h3>
+                <div>
+                    This page can be accessed only by admin users. They can ban users and add new items. The user must click on which
+                    action they want to take and a form will appear:
+                </div>
+                <div class="admin">
+                    <img class="img_admin" src="./doc_img/Capture_ban.PNG" alt="Admin ban screen capture">
+                    <img class="img_admin" src="./doc_img/Capture_add_item.PNG" alt="Admin add item screen capture">
+                </div>
+                
+            </div>
+        </section>
+
+        <section>
+            <h2>3. Authors</h2>
+            <div>
+                <ul>
+                    <li>Cernat Cristina Mihaela</li>
+                    <li>Ghiran Andrei</li>
+                </ul>
+               
+            </div>
+        </section>
+
+
+    </body>
+</html>

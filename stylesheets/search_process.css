@@ -1,0 +1,95 @@
+main {
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+    height: 70vh;
+}
+
+table {
+    font-family: 'Lato', sans-serif;
+    color: #7A2B0C;
+    table-layout: fixed;
+    border-collapse: separate;
+    border: 3px solid #7A2B0C;
+    border-radius: 15px;
+    max-width: 90vw;
+    margin-bottom: 20px;
+  }
+  
+th, td {
+    padding: 20px;
+    border: 0;
+}
+
+td:nth-child(2){
+    text-align: end;
+}
+
+tr{
+    border: 0;
+}
+
+th{
+    background-color: #CC908A;
+}
+
+tr:nth-child(odd){
+    border: 0;
+    background-color: #FAEBD7;
+}
+.a_info {
+    color: #7A2B0C;
+    font-weight: 600;
+}
+.a_info:hover {
+    color: #CC908A; 
+}
+.no_results {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: x-large;
+    color: #7A2B0C;
+}
+
+@media only screen and (max-width: 800px) {
+    table {
+        width: 90vw;
+    }
+    th, td {
+        padding: 7px;
+
+    }
+    table, thead, tbody, th, td, tr { 
+		display: block; 
+    }
+    thead tr { 
+		position: absolute;
+		top: -9999px;
+		left: -9999px;
+    }
+    
+    td { 
+		/* Behave  like a "row" */
+		border: none;
+		border-bottom: 1px solid #eee; 
+		position: relative;
+		padding-left: 50%; 
+    }
+    td:before { 
+		/* Now like a table header */
+		position: absolute;
+		/* Top/left values mimic padding */
+		top: 6px;
+		left: 6px;
+		width: 45%; 
+		padding-right: 10px; 
+		white-space: nowrap;
+    }
+    td:nth-of-type(1):before { content: "Name"; }
+	td:nth-of-type(2):before { content: "Price"; }
+	td:nth-of-type(3):before { content: "Category"; }
+	td:nth-of-type(4):before { content: "Season"; }
+	td:nth-of-type(5):before { content: "Diet"; }
+	td:nth-of-type(6):before { content: "Perishable"; }
+	td:nth-of-type(7):before { content: "See more"; }
+}

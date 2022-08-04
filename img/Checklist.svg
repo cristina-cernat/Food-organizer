@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="47" height="34.295" viewBox="0 0 47 34.295">
+  <g id="Checklist" transform="translate(0.435)">
+    <text id="Checklist-2" data-name="Checklist" transform="translate(-0.435 31.295)" fill="#cc908a" font-size="11" font-family="Raleway-Regular, Raleway"><tspan x="0" y="0">Checklist</tspan></text>
+    <g id="check" transform="translate(13.539)">
+      <g id="check-box">
+        <path id="Path_28" data-name="Path 28" d="M17.654,0H2.207A2.213,2.213,0,0,0,0,2.207V17.654a2.213,2.213,0,0,0,2.207,2.207H17.654a2.213,2.213,0,0,0,2.207-2.207V2.207A2.213,2.213,0,0,0,17.654,0ZM7.724,15.447,2.207,9.93,3.751,8.386l3.972,3.972,8.386-8.386,1.545,1.545Z" fill="#cc908a"/>
+      </g>
+    </g>
+  </g>
+</svg>

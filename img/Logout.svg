@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="37" height="35.81" viewBox="0 0 37 35.81">
+  <g id="Logout" transform="translate(-2311 -2717.19)">
+    <g id="Group_2" data-name="Group 2" transform="translate(2322.957 2717.19)">
+      <g id="Group_1" data-name="Group 1" transform="translate(0)">
+        <path id="Path_24" data-name="Path 24" d="M126.656,0a5.656,5.656,0,1,0,5.656,5.656A5.663,5.663,0,0,0,126.656,0Zm0,10.055a4.4,4.4,0,1,1,4.4-4.4A4.4,4.4,0,0,1,126.656,10.055Z" transform="translate(-121)" fill="#cc908a"/>
+      </g>
+    </g>
+    <g id="Group_4" data-name="Group 4" transform="translate(2319.187 2729.76)">
+      <g id="Group_3" data-name="Group 3" transform="translate(0)">
+        <path id="Path_25" data-name="Path 25" d="M47.464,302.438A8.063,8.063,0,0,0,41.684,300H39.17a8.063,8.063,0,0,0-5.78,2.438A8.243,8.243,0,0,0,31,308.254a.628.628,0,0,0,.628.628h17.6a.628.628,0,0,0,.628-.628A8.243,8.243,0,0,0,47.464,302.438Zm-15.18,5.187a6.956,6.956,0,0,1,6.885-6.368h2.514a6.956,6.956,0,0,1,6.885,6.368Z" transform="translate(-31 -300)" fill="#cc908a"/>
+      </g>
+    </g>
+    <text id="Logout-2" data-name="Logout" transform="translate(2311 2750)" fill="#cc908a" font-size="11" font-family="Raleway-Regular, Raleway"><tspan x="0" y="0">Logout</tspan></text>
+  </g>
+</svg>

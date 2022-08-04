@@ -1,0 +1,8 @@
+<form action="?" method="POST">
+    <input type="email">
+    <label for="email">Email</label>
+    <input type="submit" value="Ban">
+</form>
+<?php
+    // handler pt ban
+?>

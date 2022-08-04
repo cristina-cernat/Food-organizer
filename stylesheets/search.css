@@ -1,0 +1,134 @@
+main {
+    max-width: 100vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.logo_big {
+    padding-top: 80px;
+}
+.main_search {
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: #7A2B0C;
+}
+
+.main_textbox {
+    width: 50em;
+    height: 30px;
+    margin-bottom: 1em;
+    border-radius: 20px;
+    outline: none;
+    border: 1px solid #9F5233;
+    text-indent: 1em;
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 1px;
+    color: #7A2B0C;
+}
+
+.submit {
+    background: #FFF7EB;
+    padding: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border: 1px solid #CC908A;
+    border-radius: 40px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    color: #9F5233;
+    cursor: pointer;
+}
+.submit:hover {
+    background-color: #fdd6d3;
+}
+.filters_container {
+    
+    justify-content: space-around;
+    align-items: center;
+}
+.filter {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-bottom: 0.5em;    
+}
+.filter_name {
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: #7A2B0C;
+    margin-right: 1em;;
+}
+.label_choice {
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #7A2B0C;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+.slider_container {
+    display: flex;
+    margin-left: 1em;
+    align-items: center;
+}
+.slider_values {
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+    font-family: 'Lato', sans-serif;
+    color: #9F5233;
+}
+
+.small_value {
+    width: 2em;
+    height: 2em;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    color: #7A2B0C;
+    border: none;
+}
+.small_textbox {
+    width: 20em;
+    height: 25px;
+    margin-bottom: 1em;
+    margin-top: 0.5em;
+    border-radius: 20px;
+    outline: none;
+    border: 1px solid #9F5233;
+    text-indent: 1em;
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 1px;
+    color: #7A2B0C;
+}
+
+@media only screen and (max-width: 850px) {
+    main {
+        justify-content: space-between;
+
+    }
+    .search_div {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .main_textbox {
+        width: 30em;    
+    }
+    .logo_big {
+        padding-top: 0;
+    }
+}
+@media only screen and (max-width: 550px) {
+   
+    .filter {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .logo_big {
+        padding-top: 0;
+    }
+}

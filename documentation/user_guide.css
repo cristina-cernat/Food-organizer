@@ -1,0 +1,34 @@
+section{
+    margin-left: 5% ; 
+    margin-right: 10%; 
+    text-align: justify
+}
+p{
+    text-align: justify
+}
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 650px;
+    max-height: 500px;
+}
+.img_login {
+    width:400px;
+}
+.admin {
+    display: flex;
+    align-items: center;
+}
+.img_admin {
+    min-height: 100px;
+    min-width: 200;;
+    
+}
+h1{
+    text-align: center; 
+    font-size: 40px
+}
+h4{
+    margin-left:2%;
+}
